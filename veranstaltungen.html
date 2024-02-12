@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hogsmeade e.V.</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <script src="./JS/bootstrap.bundle.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary" aria-label="navbar">
+    <div class="container-xl">
+        <a class="navbar-brand" href="index.html">Hogsmeade</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="anmeldung.html">Anmeldung</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="regelnquidditch.html">Regeln(Quidditch)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="regelnzauberschach.html">Regeln(Zauberschach)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="historie.html">Historie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="veranstaltungen.html">Veranstaltungen</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Informationen</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="impressum.html">Impressum</a></li>
+                        <li><a class="dropdown-item" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form role="search">
+                <input class="form-control" type="search" placeholder="Suche" aria-label="Search">
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div>
+    <div class="bd-example">
+        <div id="veranstaltungen" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#veranstaltungen" data-bs-slide-to="0" class="active"
+                        aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#veranstaltungen" data-bs-slide-to="1" aria-label="Slide 2"
+                        class=""></button>
+                <button type="button" data-bs-target="#veranstaltungen" data-bs-slide-to="2" aria-label="Slide 3"
+                        class=""></button>
+            </div>
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active text-center">
+                    <!--Quelle https://pixabay.com/photos/harry-potter-hogwarts-hogsmeade-2405538/  -->
+                    <img src="assets/hogsmeademain.jpg" width="70%" alt="Hogsmeade Schild">
+                    <div class="carousel-caption d-flex d-md-block bg-opacity-50 bg-dark ">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <!--Quelle https://pixabay.com/photos/harry-potter-oxford-england-975362/ -->
+                    <img src="assets/banquet.jpg" width="70%" alt="Halle in Oxford">
+                    <div class="carousel-caption d-flex d-md-block bg-opacity-50 bg-dark">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <!--Quelle https://pixabay.com/photos/train-scotland-harry-potter-steam-2592037/  -->
+                    <img src="assets/train-2592037_1280.jpg" width="70%" alt="Zug auf Brücke">
+                    <div class="carousel-caption d-flex d-md-block bg-opacity-50 bg-dark">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#veranstaltungen"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#veranstaltungen"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

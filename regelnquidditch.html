@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hogsmeade e.V.</title>
+    <link href="./CSS/bootstrap.css" rel="stylesheet">
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <script src="./JS/bootstrap.bundle.js"></script>
+</head>
+<body>
+<nav aria-label="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-xl">
+        <a class="navbar-brand" href="index.html">Hogsmeade</a>
+        <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" href="index.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="anmeldung.html">Anmeldung</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="regelnquidditch.html">Regeln(Quidditch)</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link" href="regelnzauberschach.html">Regeln(Zauberschach)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="historie.html">Historie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="veranstaltungen.html">Veranstaltungen</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Informationen</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="impressum.html">Impressum</a></li>
+                        <li><a class="dropdown-item" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form role="search">
+                <input aria-label="Search" class="form-control" placeholder="Suche" type="search">
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="text-center">
+    <h1>Regelwerk Quidditch</h1>
+    <p>Hier finden Sie eine Übersicht über die Regeln, Spielern und alles was man sonst noch wissen muss über Quidditch</p>
+</div>
+<!--Quelle https://harry-potter.fandom.com/de/wiki/Quidditch#Britische_und_Irische_Quidditch-Liga-->
+<div class="col-8 m-auto">
+    <p><span class="fs-1">Q</span>uidditch ist die bekannteste Sportart in der Zaubererwelt. Man spielt diesen Sport auf
+        Besen fliegend hoch oben
+        in der Luft. Pro Mannschaft gibt es sieben Spieler und je Mannschaft drei Ringe, die in 15 Metern Höhe
+        angebracht sind, und als Tore dienen. Alle Spielenden einer bestimmten Mannschaft tragen spezielle, einheitliche
+        Quidditchumhänge mit den Mannschafts-Farben und -Emblemen. Geleitet wird das Spiel durch einen unparteiischen
+        Schiedsrichter, in Hogwarts oft von Madam Hooch. Auf Wetterbedingungen wird keinerlei Rücksicht genommen: Ein
+        angesetztes Spiel wird auch dann ausgetragen, wenn gerade ein heftiger und beim Besenfliegen gefährlicher
+        Gewittersturm tobt.</p>
+    <p><h3>Beendigung eines Spiels</h3>
+    <span class="fs-1">E</span>in Quidditch-Spiel ist dann beendet, wenn einer der beiden Sucher den Goldenen Schnatz fängt. Wie lange ein
+    Spiel dauert, ist deshalb von dessen Verlauf abhängig. Das kürzeste Quidditch-Spiel aller Zeiten (die
+    Liga-Begegnung Tutshill Tornados gegen Caerphilly Catapults von 1921) hat nur dreieinhalb Sekunden gedauert,
+    Quidditchspiele können sich aber auch über mehrere Tage oder sogar Wochen erstrecken (der Rekord für das am
+    längsten dauernde Spiel liegt bei 3 Monaten).
+    Das Spiel gewinnt nicht notwendigerweise die Mannschaft, die den Schnatz fängt und das Ende des Spiels bewirkt,
+    sondern die Mannschaft mit den meisten Punkten.
+
+    Ein Quidditch-Spiel kann auch in beiderseitigem Einverständnis der Mannschaftskapitäne beendet werden </p>
+</div>
+<div>
+    <div class="bd-example col-8 m-auto ">
+        <div class="accordion " id="accordionExample">
+            <div class="accordion-item bg-secondary">
+                <h4 class="accordion-header" id="headingOne">
+                    <button aria-controls="collapseOne" aria-expanded="true" class="accordion-button bg-secondary"
+                            data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
+                        Das Spielfeld
+                    </button>
+                </h4>
+                <div aria-labelledby="headingOne" class="accordion-collapse collapse show"
+                     data-bs-parent="#accordionExample" id="collapseOne" style="">
+                    <div class="accordion-body">
+                        Ein Quidditchfeld hat eine ovale Form, ist ca. 160 Meter lang und an der breitesten Stelle ca.
+                        60 Meter breit.
+                        In der Mitte befindet sich ein kleiner Kreis von knapp einem Meter Durchmesser, der sog.
+                        Mittelkreis für die Ballfreigabe.
+                        In den kurzen Rundungen des Feldes befinden sich je drei unterschiedlich große Ringe auf jeder
+                        Seite, die in etwa 15 Metern Höhe angebracht sind, und als Tore dienen.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-secondary">
+                <h4 class="accordion-header" id="headingTwo">
+                    <button aria-controls="collapseTwo" aria-expanded="false"
+                            class="accordion-button collapsed bg-secondary"
+                            data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
+                        Quidditch-Bälle
+                    </button>
+                </h4>
+                <div aria-labelledby="headingTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                     id="collapseTwo">
+                    <div class="accordion-body">
+                        Im Quidditchsport gibt es insgesamt drei Ballarten und vier Quidditch-Bälle:
+                        <table class="table table-sm table-primary">
+                            <thead>
+                            <tr>
+                                <th>Ball</th>
+                                <th>Eigenschaft</th>
+                            </tr>
+                            </thead>
+                            <tr>
+                                <th>Quaffel
+                                    (quaffle)
+                                </th>
+                                <th>Dieser hellrote Lederball von etwa 30 cm Durchmesser wird von den
+                                    JägerInnen auf die Torringe geworfen.
+                                    Ein Tor gibt 10 Punkte für das Team, das es wirft.
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>Zwei Klatscher
+                                    (bludger)
+                                </th>
+                                <th>
+                                    Diese großen schwarzen Eisenkugeln jagen den jeden SpielerIn, der ihn ihrer Nähe
+                                    ist.
+                                    Sie werden von den Treibern, so weit wie möglich weggeschlagen,
+                                    ehe sie die eigenen MannschaftsspielerInnen angreifen können.
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>Der goldenen Schnatz
+                                    (golden snitch)
+                                </th>
+                                <th>Der Walnussgroße goldene Ball mit silbernen Flügeln ist so verzaubert,
+                                    dass er rasant herumfliegt und sich versteckt.
+                                    Die Mannschaft des Suchers, dem es gelingt, den Schnatz zu fangen,
+                                    erhält zusätzlich 150 Punkte.
+                                </th>
+                            </tr>
+                        </table>
+                        Der goldene Schnatz kam als letztes Spielelement zum Quidditch-Spiel,
+                        während zuerst der Quaffel da war und etwas später die zwei Klatscher hinzukamen.
+                        Die Quidditch-Spielbälle werden in einem Holzkasten mit speziellen Halterungen für die beiden
+                        Klatscher und den Schnatz aufbewahrt, da sich diese verzauberten Bälle sonst selbstständig
+                        machen würden.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-secondary">
+                <h4 class="accordion-header" id="headingThree">
+                    <button aria-controls="collapseThree" aria-expanded="false"
+                            class="accordion-button collapsed bg-secondary"
+                            data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
+                        Quidditch Regeln
+                    </button>
+                </h4>
+                <div aria-labelledby="headingThree" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionExample" id="collapseThree">
+                    <div class="accordion-body bg-secondary">
+                        <ul class="list-group">
+                            <li class="list-group-item bg-secondary"> Die Spieler dürfen die Linien, die das Spielfeld
+                                begrenzen,
+                                nicht überschreiten, sie können so hochfliegen, wie sie wollen. Der gegnerischen
+                                Mannschaft wird der Quaffel zugesprochen, wenn ein Spieler die Spielfeldbegrenzung
+                                verlässt.
+                            </li>
+                            <li class="list-group-item bg-secondary">Ein MannschaftskapitänIn kann jederzeit um eine
+                                Auszeit bitten
+                                Diese Auszeit kann bis zu zwei Stunden dauern, wenn das Spiel länger als 12 Stunden
+                                gedauert hat. Die Spieler dürfen den Boden berühren. Wenn eine Mannschaft nicht mit
+                                allen Spielern zum Wiederanpfiff auf dem Spielfeld erscheint, führt das zur
+                                Disqualifikation.
+                            </li>
+                            <li class="list-group-item bg-secondary"> Im Falle eines Fouls kann im Falle
+                                Strafen/Freiwürfe verhängen.
+                                Ein einzelner Jäger der gegnerischen Mannschaft fliegt vom Mittelkreis in den Torraum
+                                und versucht, ein Tor zu erzielen. Der Hüter der gegnerischen Mannschaft darf versuchen,
+                                den Schuss zu blocken, aber kein anderer Spieler darf eingreifen.
+                            </li>
+                            <li class="list-group-item bg-secondary"> Körperkontakt ist erlaubt, aber die Spieler dürfen
+                                den Gegner
+                                nicht umklammern.
+                            </li>
+                            <li class="list-group-item bg-secondary"> Verletzt sich ein SpielerIn, ist es nicht erlaubt,
+                                ihn/sie
+                                auszuwechseln. Die Mannschaft muss mit dezimierter Spielerzahl weiterspielen.
+                            </li>
+                            <li class="list-group-item bg-secondary"> Zauberstäbe dürfen von den Spielern mit zum Spiel
+                                gebracht
+                                werden. Einer Verfügung von 1538 zu Folge, dürfen sie aber nicht benutzt werden.
+                            </li>
+                            <li class="list-group-item bg-secondary"> Ein Spiel endet mit dem Fang des goldenen Schnatz
+                                oder mit dem
+                                beiderseitigen Einverständnis der Kapitäne, das Spiel zu beenden.
+                            </li>
+                            <li class="list-group-item bg-secondary"> Eine Änderung der Quidditch-Regeln aus dem Jahr
+                                1849 sieht vor,
+                                dass die Mannschaft eines Spielers, der von einem Zuschauer mit einem Zauberspruch
+                                belegt wird, automatisch aus dem Spiel ausscheidet, unabhängig davon, ob die Mannschaft
+                                den Zauber angeordnet oder gebilligt hat oder nicht.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-secondary">
+                <h4 class="accordion-header" id="headingFour">
+                    <button aria-controls="collapseFour" aria-expanded="false"
+                            class="accordion-button collapsed bg-secondary"
+                            data-bs-target="#collapseFour" data-bs-toggle="collapse" type="button">
+                        Quidditch-Spieler
+                    </button>
+                </h4>
+                <div aria-labelledby="headingFour" class="accordion-collapse collapse bg-secondary"
+                     data-bs-parent="#accordionExample" id="collapseFour">
+                    <div class="accordion-body bg-secondary">
+                        Die sieben Spieler einer Quidditchmannschaft setzen sich wie folgt zusammen:
+                        <ul class="list-group">
+                            <li> Drei Jäger (im Original: chaser): diese versuchen den Quaffel durch eines der
+                                gegnerischen Torringe zu werfen.
+                            </li>
+                            <li>Einen Hüter (im Original: keeper): dieser versucht zu verhindern, dass die gegnerischen
+                                Jäger die Tore werfen.
+                            </li>
+                            <li> Zwei Treiber (im Original: beater): diese versuchen, mit Schlägern die Klatschern von
+                                den Mitspielern der eigenen Mannschaft abzuwehren und schlagen sie auf gegnerische
+                                Spieler.
+                            </li>
+                            <li>Einen Sucher (im Original: seeker): dieser versucht, den goldenen Schnatz zu fangen.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-secondary">
+                <h4 class="accordion-header" id="headingFive">
+                    <button aria-controls="collapseFive" aria-expanded="false"
+                            class="accordion-button collapsed bg-secondary"
+                            data-bs-target="#collapseFive" data-bs-toggle="collapse" type="button">
+                        Quidditch Fouls
+                    </button>
+                </h4>
+                <div aria-labelledby="headingFive" class="accordion-collapse collapse"
+                     data-bs-parent="#accordionExample" id="collapseFive">
+                    <div class="accordion-body">
+                        In einem Quidditch-Spiel können 700 verschiedene Quidditch-Fouls angewendet werden. Der
+                        Quidditch-Experte Kennilworthy Whisp schreibt in seinem Buch Quidditch im Wandel der Zeiten ein
+                        Bestseller in der magischen Welt, dass diese 700 Fouls während des 1. Quidditch
+                        Weltmeisterschaft 1473 begangen wurden.
+                        Nach dem 1538 erlassenen Verbot einen Zauberstab während des Spieles zu benutzen, sind 90 % der
+                        Straftaten nicht mehr zu praktizieren. Die restlichen 10 % der Verstöße sind so gemein und
+                        hinterlistig (z. B. anzünden des Schweifs eines gegnerischen Spielers, oder ein Angriff mit
+                        einem Knüppel oder eine Axt), dass sie selbst dem bösartigsten Quidditch-Spieler nicht einfallen
+                        würden.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
